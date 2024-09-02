@@ -9,7 +9,11 @@ export default {
 				main: '#080D1B',
 				secondary: '#B348E1',
 				tertiary: '#842CB9',
-				accent: '#F9EDFF'
+				clear: '#F9EDFF',
+				semidark: '#7F8386'
+			},
+			boxShadow: {
+				'CTA-shadow': '2px 3px 7px #B348E1'
 			}
 		}
 	}

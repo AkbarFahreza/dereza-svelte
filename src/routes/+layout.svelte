@@ -1,5 +1,5 @@
 <script>
-	import Navbar from '$lib/components/ui/Navbar.svelte';
+	import Navbar from '$lib/components/Navbar.svelte';
 	import '../app.css';
 	import '@fontsource/poppins/400.css';
 	import '@fontsource/poppins/500.css';

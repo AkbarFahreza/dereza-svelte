@@ -1,0 +1,17 @@
+<script>
+	const SocilaList = [
+		{ name: 'instagram', link: 'https://instagram.com' },
+		{ name: 'twitter', link: 'https://twitter.com' },
+		{ name: 'linkedin', link: 'https://linkedin.com' },
+		{ name: 'github', link: 'https://github.com' }
+	];
+</script>
+
+<section class="relative w-full px-4 py-3">
+	<div class="absolute-center absolute -z-10 h-full w-[100vw] bg-clear"></div>
+	<div class="flex justify-center gap-4">
+		{#each SocilaList as item}
+			<a class="font-semibold text-gray-800" href={item.link}>{item.name}</a>
+		{/each}
+	</div>
+</section>
